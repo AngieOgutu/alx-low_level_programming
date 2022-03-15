@@ -1,0 +1,17 @@
+#include "main.h"
+
+/**
+ * main- prints '_putchar' followed by a new line
+ * return : Always (0) Success
+ */
+int main(void)
+{
+	char *word = "_putchar";
+	while (*word != '\0')
+	{
+		putchar (*word);
+		word++;
+	}
+	putchar ('\n');
+	return(0);
+}
