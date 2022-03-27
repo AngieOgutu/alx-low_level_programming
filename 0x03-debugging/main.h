@@ -9,7 +9,7 @@
 
 
 void positive_or_negative(int i);
-largest = largest_number(a, b, c);
+int largest = int largest_number(int a,int b,int c);
 
 
 #endif /* MAIN_H */
