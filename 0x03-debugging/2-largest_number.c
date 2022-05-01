@@ -8,10 +8,9 @@
  * Return: largest number
  */
 
-int largest_number(int a, int b, int c)
-
+int main ()
 {
-
+	int a, b, c;
 	largest = largest_number (a, b, c);
 
 	if (a >= b && b >= c)
