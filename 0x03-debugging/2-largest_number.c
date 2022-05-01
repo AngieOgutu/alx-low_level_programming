@@ -10,6 +10,7 @@
  */
 
 int main ()
+largest = largest_number (a, b, c);
 {
 	int a, b, c;
 
