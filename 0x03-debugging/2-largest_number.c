@@ -9,12 +9,12 @@
  * Return: largest number
  */
 
-int main ()
+void main ()
 {
 	int a;
 	int b;
 	int c;
-	
+
 
 	if (a >= b && a >= c)
 
@@ -34,6 +34,6 @@ int main ()
 		printf ("%d", c);
 	}
 
-	return 0;
+	return;
 
 }
