@@ -1,0 +1,11 @@
+#include <stdio.h>
+
+/**
+ * main - Prints alll single digit numbers of base 10 starting from 0
+ * Return: 0
+ */
+
+int main(void)
+{
+	int i
+}
