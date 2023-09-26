@@ -1,0 +1,10 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+  *_strcat - concatenates two strings
+  *@src: string to append
+  *@dest: string to append to
+  *Return: pointer to resulting string dest
+  */
+
