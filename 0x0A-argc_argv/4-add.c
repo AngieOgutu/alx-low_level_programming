@@ -7,14 +7,14 @@
   * main - adds positive numbers
   * @argc: count of arguments
   * @argv: arguments entered as array of strings
-  * Return: 1 id number contains symbols, 0 otherwise
+  * Return: 1 if error, 0 otherwise
   */
 
 int main(int argc, char *argv[])
 {
 	int i, j, total;
 
-	if (argc < 2)
+	if (argc == 1)
 	{
 		printf("0\n");
 		return (0);
