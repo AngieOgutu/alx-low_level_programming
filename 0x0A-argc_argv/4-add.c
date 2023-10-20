@@ -12,12 +12,12 @@
 
 int main(int argc, char *argv[])
 {
-	int i, j, total;
+	int i, j, total = 0;
 
 	if (argc == 1)
 	{
 		printf("0\n");
-		return (0);
+		/*return (0);*/
 	}
 
 	for (i = 1; i < argc; i++)
@@ -30,7 +30,7 @@ int main(int argc, char *argv[])
 				return (1);
 			}
 		}
-		total = 0;
+		/*total = 0;*/
 		total += atoi(argv[i]);
 	}
 
