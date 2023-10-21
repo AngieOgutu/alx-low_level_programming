@@ -17,11 +17,11 @@ int main(int argc, char *argv[])
 		return (1);
 	}
 
-	cents = atoi(argv[1]);
+	int cents = atoi(argv[1]);
 
 	if (cents < 1)
 	{
-		printtf("0\n");
+		printf("0\n");
 	}
 
 	int coins25 = cents / 25;
