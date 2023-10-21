@@ -24,6 +24,7 @@ int main(int argc, char *argv[])
 	if (cents < 1)
 	{
 		printf("0\n");
+		return (0);
 	}
 
 	coins25 = cents / 25;
