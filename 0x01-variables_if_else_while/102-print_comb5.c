@@ -2,7 +2,7 @@
 
 /**
   * main - prints all possible combinations of two two-digit numbers
-  " Return: 0
+  * Return: 0
   */
 
 int main(void)
@@ -15,7 +15,7 @@ int main(void)
 		{
 			for (k = i; k < 10; k++)
 			{
-				for (l = (i == k ? j + 1 : 0 ); l < 10; l++)
+				for (l = (i == k ? j + 1 : 0); l < 10; l++)
 				{
 					putchar(i + '0');
 					putchar(j + '0');
