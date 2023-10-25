@@ -16,6 +16,7 @@ void print_times_table(int n)
 		for (i = 0; i <= n; i++)
 		{
 			for (j = 0; j <= n; j++)
+			{
 				prod = i * j;
 
 			if (prod > 99)
@@ -35,6 +36,7 @@ void print_times_table(int n)
 			if (j != n)
 				_putchar(',');
 				_putchar(' ');
+			}
 			_putchar('\n');
 		}
 	}
