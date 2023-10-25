@@ -30,9 +30,10 @@ void print_times_table(int n) {
 			} else {
 				_putchar(prod + '0');
 			}
-			if (j != n)
+			if (j != n){
 				_putchar(',');
 				_putchar(' ');
+			}
 			}
 			_putchar('\n');
 		}
